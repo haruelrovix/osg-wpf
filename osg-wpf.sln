@@ -10,6 +10,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSG.Cpp.CLI", "OSG.Cpp.CLI\
 		{D7274A67-1EA2-4D01-A63C-27D2EB3F7A25} = {D7274A67-1EA2-4D01-A63C-27D2EB3F7A25}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSG.WPF", "OSG.WPF\OSG.WPF.csproj", "{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF8AF7DF-34F8-48C3-A2E3-B48DA8BBAE61} = {AF8AF7DF-34F8-48C3-A2E3-B48DA8BBAE61}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +39,14 @@ Global
 		{AF8AF7DF-34F8-48C3-A2E3-B48DA8BBAE61}.Release|x64.Build.0 = Release|x64
 		{AF8AF7DF-34F8-48C3-A2E3-B48DA8BBAE61}.Release|x86.ActiveCfg = Release|Win32
 		{AF8AF7DF-34F8-48C3-A2E3-B48DA8BBAE61}.Release|x86.Build.0 = Release|Win32
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Debug|x64.ActiveCfg = Debug|x64
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Debug|x64.Build.0 = Debug|x64
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Debug|x86.ActiveCfg = Debug|x86
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Debug|x86.Build.0 = Debug|x86
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Release|x64.ActiveCfg = Release|x64
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Release|x64.Build.0 = Release|x64
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Release|x86.ActiveCfg = Release|x86
+		{B9348559-493B-4CA8-A6B3-A10B6D8CC93B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
