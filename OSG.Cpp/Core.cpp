@@ -1,4 +1,4 @@
-// OSG.Cpp/Core.c
+// OSG.Cpp/Core.cpp
 #include "Core.h"
 
 #pragma region Global Variables
